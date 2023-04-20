@@ -1,0 +1,15 @@
+.circle-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 80vh;
+  background-image:
+    radial-gradient(circle at 10% 20%, #f06, rgba(0, 0, 0, 0) 70.71%),
+    radial-gradient(circle at 40% 30%, #0bf, rgba(0, 0, 0, 0) 70.71%),
+    radial-gradient(circle at 60% 80%, #fb0, rgba(0, 0, 0, 0) 70.71%),
+    radial-gradient(circle at 90% 60%, #0f6, rgba(0, 0, 0, 0) 70.71%);
+  background-size: 50% 50%;
+  background-repeat: repeat;
+}
